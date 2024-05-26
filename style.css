@@ -74,9 +74,9 @@ h6 {
   width: 300px;
   transition: all ease-in-out 0.5s;
   z-index: 9997;
-  transition: all 0.5s;
   padding: 0 15px;
-  background: #45054e;
+  background: #000000a8;
+  /* border-radius: 0px 30px 30px 0px; */
   overflow-y: auto;
 }
 
@@ -257,8 +257,6 @@ h6 {
 .nav-menu a:hover i,
 .nav-menu li:hover>a i {
   color: #fff;
-  transition: all 0.3s ease-in-out;
-  margin-left: 25px;
 }
 
 #hero:before {
@@ -723,7 +721,7 @@ section {
   bottom: 0;
   width: 300px;
   z-index: 9999;
-  background: #45054e;
+  background: #000000de;
 }
 
 #footer .copyright {
