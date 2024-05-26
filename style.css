@@ -13,11 +13,11 @@ a:hover {
   text-decoration: none;
 }
 
-span{
+span {
   font-family: Math !important;
 }
 
-p{
+p {
   font-family: josefin sans !important;
 }
 
@@ -27,7 +27,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Aclonica; 
+  font-family: Aclonica;
 }
 
 /*--------------------------------------------------------------
@@ -84,7 +84,7 @@ h6 {
   margin: 15px auto;
   display: block;
   width: 100px;
-  border: 3px solid #808080;
+  border: 3px solid var(--bs-dark-text-emphasis);
 }
 
 .rounded-circle {
@@ -276,13 +276,13 @@ h6 {
   min-width: 300px;
 }
 
-.hero-container h2 a{
+.hero-container h2 a {
   color: #000;
   font-family: math;
   text-decoration: underline;
 }
 
-.hero-container h2 a:hover{
+.hero-container h2 a:hover {
   color: #fff;
   text-decoration: underline;
 }
@@ -467,7 +467,7 @@ section {
   position: relative;
 }
 
-.resume-item p{
+.resume-item p {
   font-family: Math !important;
 }
 
@@ -672,13 +672,15 @@ section {
 
 .contact .php-email-form input {
   height: 44px;
+  border-radius: 5px;
 }
 
 .contact .php-email-form textarea {
   padding: 10px 15px;
+  border-radius: 5px;
 }
 
-.form-group .col-md-6 input{
+.form-group .col-md-6 input {
   border-radius: 5px;
 }
 
@@ -728,11 +730,11 @@ section {
   text-align: center;
 }
 
-.credits a{
+.credits a {
   color: #fff;
 }
 
-.credits a:hover{
+.credits a:hover {
   color: #ffffff9d;
 }
 
@@ -749,4 +751,17 @@ section {
     width: auto;
     padding-right: 20px 15px;
   }
+}
+
+::-webkit-scrollbar {
+  width: 16px;
+  background: #00000081;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #0000008a;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
 }
