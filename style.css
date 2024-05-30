@@ -84,7 +84,7 @@ h6 {
   margin: 15px auto;
   display: block;
   width: 100px;
-  border: 3px solid var(--bs-dark-text-emphasis);
+  /* border: 3px solid var(--bs-dark-text-emphasis); */
 }
 
 .rounded-circle {
