@@ -1,5 +1,5 @@
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: Math;
   color: #272829;
 }
 
@@ -43,7 +43,7 @@ h6 {
   background: #9612ee;
   width: 40px;
   height: 40px;
-  border-radius: 50px;
+  border-radius: 4px;
   transition: all 0.4s;
 }
 
@@ -723,7 +723,7 @@ section {
   bottom: 0;
   width: 300px;
   z-index: 9999;
-  background: #000000de;
+  background: #00000054;
 }
 
 #footer .copyright {
