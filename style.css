@@ -244,7 +244,6 @@ h6 {
   height: 100vh;
   background: url("Main_Img.jpg");
   background-size: cover;
-  filter: brightness(120%);
 }
 
 .nav-menu a:hover i,
@@ -754,12 +753,13 @@ section {
 }
 
 ::-webkit-scrollbar {
-  width: 16px;
-  background: #00000081;
+  width: 10px;
+  background: #00000000;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #0000008a;
+  background-color: #0000007a;
+  border-radius: 3px;
 }
 
 ::-webkit-scrollbar-track {
