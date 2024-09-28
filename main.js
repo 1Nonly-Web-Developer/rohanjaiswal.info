@@ -261,3 +261,14 @@
   new PureCounter();
 
 })()
+
+document.addEventListener('DOMContentLoaded', () => {
+  const mobileNavToggle = document.querySelector('.mobile-nav-toggle');
+  const navbar = document.querySelector('#navbar');
+
+  mobileNavToggle.addEventListener('click', () => {
+    navbar.classList.toggle('navbar-mobile');
+    mobileNavToggle.classList.toggle('bi-list');
+    mobileNavToggle.classList.toggle('bi-x');
+  });
+});
