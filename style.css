@@ -514,6 +514,10 @@ p {
 	margin-bottom: 20px;
 }
 
+.col-right a{
+	margin: 0px 5px;
+}
+
 #about .col-right .cta {
 	color: black;
 	margin-bottom: 50px;
