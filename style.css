@@ -526,6 +526,12 @@ p {
 	border-radius: 4px;
 }
 
+#about .col-right .cta:hover{
+	color: white;
+	background-color: crimson;
+}
+
+
 #about .col-left .about-img {
     height: 100%;
     width: 100%;
